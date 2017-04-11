@@ -2,7 +2,7 @@
 
 void solution(int sum, int date)
 {
-    if (dat<=365 && sum>=10000 && sum<=100000){
+    if (date<=365 && sum>=10000 && sum<=100000){
         if (date>0 && date<=30){
         sum = sum - sum * 0.10;
         }
