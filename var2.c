@@ -47,5 +47,7 @@ int main()
     printf("Enter sum and date:");
     scanf("%d %d", &Sum, &Date);
     
+    solution(Sum, Date);
+
     return 0;
 }
