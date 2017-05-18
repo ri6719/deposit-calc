@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "fun.h"
-void solution(int sum, int date)
+int solution(int sum, int date)
 {
 if (date<=365 && sum>=10000 && sum<=100000){
         if (date>0 && date<=30){
@@ -16,9 +16,10 @@ if (date<=365 && sum>=10000 && sum<=100000){
         sum = sum+sum*0.12;
         }
     }
-    else{
-         printf("Error!");
-         }
+    else {
+         printf("Error!\n");
+         return 0;
+    }
 
       if (date<=365 && sum>=100000){
         if (date>0 && date<=30){
@@ -35,7 +36,9 @@ if (date<=365 && sum>=10000 && sum<=100000){
         }
       }
     else{
-         printf("Error");
-         }
+         printf("Error\n");
+         return 0;
+    }
     printf("Sum: %d\n", sum);
+    return 1;
 }
