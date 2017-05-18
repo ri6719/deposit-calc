@@ -17,5 +17,5 @@ build/solution.o: src/solution.c
 
 .PHONY: all clean
 clean:
-	rm -f build/src/*.o
+	rm -f build/*.o
 	rm -f bin/*
