@@ -32,4 +32,5 @@
 *.dSYM/
 *.su
 bin/*
-build/src/*
+build/src/*.o
+build/test/*.o
