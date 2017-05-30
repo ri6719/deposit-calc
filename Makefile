@@ -31,4 +31,4 @@ build/test/main.o: test/main.c
 clean:
 	rm -f build/src/*.o
 	rm -f build/test/*.o 
-	rm -f bin/*
+	rm -f bin/*.o
