@@ -15,13 +15,9 @@ if (date<=365 && sum>=10000 && sum<=100000){
         if (date>240 && date<=365){
         sum = sum+sum*0.12;
         }
-    }
-    else {
-         printf("Error!\n");
-         return 0;
-    }
-
-      if (date<=365 && sum>=100000){
+        printf("Sum: %d\n", sum);
+        return 1;
+    } else if (date<=365 && sum>=100000){
         if (date>0 && date<=30){
         sum = sum-sum*0.10;
         }
@@ -34,11 +30,12 @@ if (date<=365 && sum>=10000 && sum<=100000){
         if (date>240 && date<=365){
         sum = sum+sum*0.15;
         }
+        printf("Sum: %d\n", sum);
+        return 1;
       }
     else{
          printf("Error\n");
          return 0;
     }
-    printf("Sum: %d\n", sum);
     return 1;
 }
