@@ -31,6 +31,7 @@
 # Debug files
 *.dSYM/
 *.su
-bin/*
+bin/test
+bin/zadanie3
 build/src/*.o
 build/test/*.o
